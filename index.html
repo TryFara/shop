@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TRYFARA — T-Shirts With Character</title>
+  <meta name="description" content="TRYFARA makes bold, soft, everyday t-shirts. Shop graphic tees, essentials and limited drops." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a href="#top" class="logo" aria-label="TRYFARA home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20 9 4l3 7 3-7 7 16h-4l-3-7-3 7-3-7-3 7z"/></svg>
+        <span>TRY<br />FARA</span>
+      </a>
+
+      <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-right">
+        <label class="search">
+          <input type="search" placeholder="Search tees" aria-label="Search tees" id="search" />
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </label>
+        <button class="cart-btn" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l-1 13H6L5 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="menu" id="menu" hidden>
+      <a href="#superstars">Bestsellers</a>
+      <a href="#collection">Collection</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#lookbook">Shop All</a>
+      <a href="#club">Club</a>
+    </div>
+
+    <div class="hero-art" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <h1 class="display hero-title">
+        <span class="l1">The</span>
+        <span class="l2">Everyday</span>
+        <span class="l3"><i class="hero-chip" aria-hidden="true"></i>T-Shirt</span>
+      </h1>
+      <div class="hero-foot">
+        <p>TRYFARA is a one-stop shop for tees with character — heavyweight cotton, bold prints and easy fits.
+          We believe what you wear is a personal expression of who you are, so every drop is made to be worn hard and loved long.</p>
+        <a href="#lookbook" class="pill pill-light">Shop <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ SUPERSTARS ============ -->
+    <section class="cream guides" id="superstars">
+      <div class="wrap">
+        <h2 class="display section-title center">TRYFARA Superstars <a href="#lookbook" class="arrow-link" aria-label="See all">→</a></h2>
+        <div class="stars">
+          <div class="stars-intro">
+            <p>Not sure where to start? These are the tees our crew reaches for first — the ones that sell out every drop.</p>
+            <p>Looking for something specific? A graphic print, a clean basic, an oversized fit? Use the search above or browse the full collection below.</p>
+          </div>
+          <div class="stars-grid" id="stars-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-label="Explore our latest t-shirt collection">
+      <div class="marquee-track display" aria-hidden="true">
+        <span>Explore our latest t-shirt collection</span><span>✦</span>
+        <span>Explore our latest t-shirt collection</span><span>✦</span>
+        <span>Explore our latest t-shirt collection</span><span>✦</span>
+        <span>Explore our latest t-shirt collection</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- ============ COLLECTION FEATURES ============ -->
+    <section class="cream guides" id="collection">
+      <div class="wrap features">
+        <article class="feature">
+          <div class="feature-media" id="feature-1"></div>
+          <div class="feature-body">
+            <span class="tag tag-coral">Graphic Tees</span>
+            <h3 class="display feature-title">Loud prints for quiet days</h3>
+            <p>Screen-printed by hand on 240gsm organic cotton. Bold front graphics, built to fade beautifully.</p>
+            <div class="tags">
+              <span class="tag tag-coral">Heavyweight</span>
+              <span class="tag tag-mint">Unisex Fit</span>
+              <span class="tag tag-yellow">Limited Drop</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature feature-rev">
+          <div class="feature-media" id="feature-2"></div>
+          <div class="feature-body">
+            <span class="tag tag-coral">Essentials</span>
+            <h3 class="display feature-title">The clean basic, perfected</h3>
+            <p>Our everyday blank in eight colours. Boxy shoulders, a collar that stays put, and a wash that gets softer every time.</p>
+            <div class="tags">
+              <span class="tag tag-coral">Organic Cotton</span>
+              <span class="tag tag-mint">Relaxed Fit</span>
+              <span class="tag tag-yellow">8 Colours</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="dark grain" id="gallery">
+      <div class="wrap">
+        <h2 class="display section-title center">TRYFARA Gallery</h2>
+        <div class="gallery" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ LOOKBOOK / SHOP ============ -->
+    <section class="cream guides" id="lookbook">
+      <div class="wrap">
+        <div class="lookbook-head">
+          <h2 class="display section-title">Top picks<br />collection<br />for you <i class="hero-chip small" aria-hidden="true"></i></h2>
+          <div class="lookbook-side">
+            <p>Hand-picked favourites from this season. Tap a tee to add it to your bag — free shipping on orders over £50.</p>
+            <div class="arrows">
+              <button class="circle-btn" data-dir="-1" aria-label="Previous">←</button>
+              <button class="circle-btn" data-dir="1" aria-label="Next">→</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel" id="carousel" tabindex="0" aria-label="Product carousel"></div>
+      </div>
+    </section>
+
+    <!-- ============ CLUB ============ -->
+    <section class="cream guides" id="club">
+      <div class="wrap club">
+        <h2 class="display club-title">Let's wear<br />it together</h2>
+        <div class="club-side">
+          <p>Join the TRYFARA club for early access to new drops, members-only prices and more ways to make your mark.</p>
+          <form class="email" id="email-form">
+            <input type="email" required placeholder="Enter your email address" aria-label="Email address" />
+            <button type="submit" aria-label="Subscribe">→</button>
+          </form>
+          <p class="form-note" id="form-note" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER CTA ============ -->
+  <footer class="footer dark">
+    <div class="wrap center">
+      <h2 class="display section-title">Get started with TRYFARA</h2>
+      <p>Find the tee that feels like you. New drops every month, shipped from our studio to your door.</p>
+      <a href="#lookbook" class="start">Get Started <span class="ring" aria-hidden="true">→</span></a>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> TRYFARA</span>
+        <nav>
+          <a href="#superstars">Bestsellers</a>
+          <a href="#collection">Collection</a>
+          <a href="#club">Club</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ CART DRAWER ============ -->
+  <div class="overlay" hidden></div>
+  <aside class="drawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 class="display">Your bag</h2>
+      <button class="close" aria-label="Close cart">×</button>
+    </div>
+    <ul class="cart-items" id="cart-items"></ul>
+    <div class="drawer-foot">
+      <div class="total"><span>Total</span><strong id="cart-total">£0.00</strong></div>
+      <button class="pill pill-dark checkout">Checkout <span aria-hidden="true">→</span></button>
+    </div>
+  </aside>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
